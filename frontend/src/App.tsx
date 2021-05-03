@@ -1,3 +1,4 @@
+import Dashboard from 'components/Dashboard';
 import DataTable from 'components/DataTable';
 import Footer from 'components/Footer';
 import NavBar from 'components/NavBar';
@@ -6,11 +7,12 @@ import React from 'react';
 function App() {
   return (
     <>
-      <div>
-        <NavBar />
+      <NavBar />
+      <div className="container">
+        <Dashboard />
         <DataTable />
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }
