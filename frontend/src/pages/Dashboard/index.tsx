@@ -3,7 +3,7 @@ import Footer from "components/Footer";
 import NavBar from "components/NavBar";
 import Dashboard from "components/Dashboard";
 
-const PageDashboard = () => {    
+const PageDashboard = () => {
   return (
     <>
       <NavBar />
