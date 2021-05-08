@@ -1,19 +1,8 @@
-import Dashboard from 'components/Dashboard';
-import DataTable from 'components/DataTable';
-import Footer from 'components/Footer';
-import NavBar from 'components/NavBar';
-import React from 'react';
+import Routes from 'Routes';
 
 function App() {
   return (
-    <>
-      <NavBar />
-      <div className="container">
-        <Dashboard />
-        <DataTable />
-      </div>
-      <Footer />
-    </>
+    <Routes/>
   );
 }
 
